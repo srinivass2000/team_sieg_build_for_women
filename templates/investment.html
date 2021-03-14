@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Capital Prediction</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="../static/css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <h2 class="title">Prediction Form</h2>
+                    <form method="POST" action="/predict">
+                        <div class="row row-space">
+                            <div class="col">
+                                <div class="input-group form-control">
+                                    <label class="label">Industry</label>
+                                    <!-- <input class="input--style-4" type="checkbox" name="a" value='Transport'> -->
+                                    <select name="a" class="rs-select2">
+                                        <option value = "Transport">Transport</option>
+                                        <option value = "E-commerce">E-Commerce</option>
+                                        <option value = "Finance">Finance</option>
+                                        <option value = "Services">Services</option>
+                                        <option value = "Agriculture">Agriculture</option>
+                                        <option value = "Health and wellness">Health and Wellness</option>
+                                        <option value = "Others">Others</option>
+                                      </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col">
+                                <div class="input-group">
+                                    <label class="label">Sector</label>
+                                    <select name="b">
+                                        <option value = "E-learning">Teaching</option>
+                                        <option value = "App based shuttle service">Service Provider</option>
+                                        <option value = "Retailer of baby and toddler products">Retailer</option>
+                                        <option value = "Mobile $ Clould based App developer">Developer</option>
+                                        <option value = "Online marketplace for cars">Others</option>
+                                        
+                                      </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col">
+                                <div class="input-group">
+                                    <label class="label">City</label>
+                                    <select name="c">
+                                        <option value = "Panaji">Panaji</option>
+                                        <option value = "Bengaluru">Bengaluru</option>
+                                        <option value = "New Delhi">New Delhi</option>
+                                        <option value = "Mumbai">Mumbai</option>
+                                        <option value = "Chennai">Chennai</option>
+                                        <option value = "Pune">Pune</option>
+                                        <option value = "Noida">Noida</option>
+                                        <option value = "Faridabad">Faridabad</option>
+                                        <option value = "Amritsar">Amritsar</option>
+                                        <option value = "Delhi">Delhi</option>
+                                        <option value = "Kormangala">Kormangala</option>
+                                        <option value = "Hyderabad">Hyderabad</option>
+                                        <option value = "Gurugram">Gurugram</option>
+                                        <option value = "Andheri">Andheri</option>
+                                        <option value = "Chembur">Chembur</option>
+                                        <option value = "Haryana">Haryana</option>
+                                        <option value = "Karnataka">Karnataka</option>
+                                        <option value = "Bhopal">Bhopal</option>
+                                        <option value = "Jaipur">Jaipur</option>
+                                        <option value = "Nagpur">Nagpur</option>
+                                        <option value = "Indore">Indore</option>
+                                        <option value = "Ahemadabad">Ahemadabad</option>
+                                        <option value = "Chandigarh">Chandigarh</option>
+                                        <option value = "Udaipur">Udaipur</option>
+                                        <option value = "Ahmedabad">Ahmedabad</option>
+                                        <option value = "Goa">Goa</option>
+                                        <option value = "Gaya">Gaya</option>
+                                        <option value = "Vadodara">Vadodara</option>
+                                        <option value = "Gwalior">Gwalior</option>
+                                        <option value = "Kerala">Kerala</option>
+                                        <option value = "Lucknow">Lucknow</option>
+                                        <option value = "Trivandrum">Trivandrum</option>
+                                        <option value = "Varanasi">Varanasi</option>
+                                        <option value = "Jodhpur">Jodhpur</option>
+                                        <option value = "Kanpur">Kanpur</option>
+                                      </select>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="p-t-15">
+                    <button class="btn btn--radius-2 btn--blue" type="submit" value='predict!'>Submit</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

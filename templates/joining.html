@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Advertisment registration form</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/form.css">
+</head>
+
+<body>
+    <div class="main-block">
+        <div class="left-part">
+            <i class="fas fa-graduation-cap"></i>
+            <h1>Join Us! and Share Your Inspirational Stories</h1>
+            <p>Let Other women be Inspired With your Stories</p>
+            <div class="btn-group">
+                <a class="btn-item" href="">Home</a>
+                <a class="btn-item" href="">Read stories</a>
+            </div>
+        </div>
+        <form action="https://formspree.io/f/xdopqwkj" method="POST" enctype="multipart/form-data">
+            <div class="title">
+                <i class="fas fa-pencil-alt"></i>
+                <h2>Join Us here</h2>
+            </div>
+            <div class="info">
+                <input class="fname" type="text" name="name" placeholder="Full name" required>
+                <input type="email" name="_replyto" placeholder="Email" required>
+                <input type="phone" name="phone" placeholder="Phone number" required>
+
+                <select name="sector">
+            <option value="sector" selected>Sector*</option>
+            <option value="ecommerce">E-Commerce</option>
+            <option value="food">Food & Beverages</option>
+            <option value="transport">Transport</option>
+            <option value="education">Education</option>
+            </select>
+                <input type="text" name="sname" placeholder="Start-up name" required>
+                <!-- <label for="about">About your Start-up</label>
+                <textarea id="about" name="about" placeholder="Tell us about your start-up" rows="4" cols="50"></textarea> -->
+
+                <label for="upload">Upload Your story</label>
+                <input type="file" name="upload" placeholder="Story">
+
+                <label for="upload_pic">Passport Size Photo</label>
+                <input type="file" name="upload_pic" placeholder="photo">
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" name="checkbox"><span>I agree to the <a href="#">Privacy Policy</a></span>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <!-- <script>
+        window.formbutton = window.formbutton || function() {
+            (formbutton.q = formbutton.q || []).push(arguments)
+        };
+        formbutton("create", {
+            action: "https://formspree.io/f/xnqoeblk"
+        })
+    </script> -->
+</body>
+
+</html>

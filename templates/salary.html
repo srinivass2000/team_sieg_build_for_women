@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Capital Prediction</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/main.css">
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <h2 class="title">Salary Prediction Form</h2>
+                    <form method="POST" action="/predict2">
+                        <div class="row row-space">
+                            <div class="col">
+                                <div class="input-group">
+                                    <label class="label">Education</label>
+                                    <select name="b">
+                                        <option value = "Bachelors">Bachelors Degree</option>
+                                        <option value = "Masters">Masters Degree</option>
+                                        <option value = "Doctorate">Phd</option>
+                                        <option value = "Some-college">Under-Graduate</option>
+                                        <option value = "12th">Till HSSC</option>
+                                        <option value = "HS-grad">Till SSC </option>
+                                        </select>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row row-space">
+
+                            <div class="col">
+                                <div class="input-group">
+                                    <label class="label">Working Sector</label>
+                                    <select name="c">
+                                        <option value = "Private">Private</option>
+                                        <option value = "Local-gov">Local-gov</option>
+                                        <option value = "State-gov">State-gov</option>
+                                        <option value = "Self-emp-inc">Self-employed</option>
+                                        <option value = "Without-pay">Without-pay</option>
+                                        <option value = "Never-worked">Never-worked </option>
+                                        </select>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row row-space">
+                            <div class="col">
+                                <div class="input-group">
+                                    <label class="label">Years of Experience</label>
+                                    <input class="input--style-4" type="number" name="d">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row row-space">
+                            <div class="col">
+                                <div class="input-group">
+                                    <label class="label">Hours per week</label>
+                                    <input class="input--style-4" type="number" name="a">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-t-15">
+                            <button class="btn btn--radius-2 btn--blue" type="submit" value='predict2!'>Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
