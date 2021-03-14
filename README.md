@@ -24,7 +24,7 @@ pip3 install -r requirements.txt
 After installing all the dependencies start the local server
 ```
 python app.py
-``
+```
 
 ## Deployment
 
