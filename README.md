@@ -16,6 +16,7 @@ We live in a society that have given man high priority in many sectors of the wo
 #Lack of reach towards the community:
 
 As There are many business startups very few have got their Acknowledgement towards their work so, we provide a platform that help this new startup/startups to bring light upon their work and help them to scale up to a broader market through advertisements on our page hence we also provide a link to their website.
+
 In addition to this, We also have provided an A.I powered model which can help you predict the capital Investment Required for your Startup. 
 
 ## Getting Started
