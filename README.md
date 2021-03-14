@@ -24,7 +24,26 @@ pip3 install -r requirements.txt
 After installing all the dependencies start the local server
 ```
 python app.py
-```
+``
+
+## Deployment
+
+This webapp is developed on [Heroku](www.heroku.com) Using [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) with Connection to Github For Continious deployment
+
+## Built With
+
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/) - The web framework used
+* [Decision tree regression](https://scikit-learn.org/stable/auto_examples/tree/plot_tree_regression.html) - Machine learning Model 
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
 
 
 
