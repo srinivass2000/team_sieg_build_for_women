@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+.main {
+    padding: 0;
+    background-color: black;
+}
+
+.s {
+    background-color: white;
+}
+
+.image {
+    height: 40%;
+    width: 40%;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+}
+
+h3 {
+    font-family: 'Tajawal', sans-serif;
+}

@@ -8,6 +8,10 @@ section {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
 :root {
     --Sniglet-font: "Sniglet", cursive;
     --Rubik: "Rubik", cursive;

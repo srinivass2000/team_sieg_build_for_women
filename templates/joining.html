@@ -15,8 +15,8 @@
             <h1>Join Us! and Share Your Inspirational Stories</h1>
             <p>Let Other women be Inspired With your Stories</p>
             <div class="btn-group">
-                <a class="btn-item" href="">Home</a>
-                <a class="btn-item" href="">Read stories</a>
+                <a class="btn-item" href="/">Home</a>
+                <a class="btn-item" href="/">Read stories</a>
             </div>
         </div>
         <form action="https://formspree.io/f/xdopqwkj" method="POST" enctype="multipart/form-data">
@@ -26,30 +26,34 @@
             </div>
             <div class="info">
                 <input class="fname" type="text" name="name" placeholder="Full name" required>
+                <hr>
                 <input type="email" name="_replyto" placeholder="Email" required>
+                <hr>
                 <input type="phone" name="phone" placeholder="Phone number" required>
+                <hr>
+                <input type="text" name="sector" placeholder="Sector" required>
+                <hr>
 
-                <select name="sector">
-            <option value="sector" selected>Sector*</option>
-            <option value="ecommerce">E-Commerce</option>
-            <option value="food">Food & Beverages</option>
-            <option value="transport">Transport</option>
-            <option value="education">Education</option>
-            </select>
                 <input type="text" name="sname" placeholder="Start-up name" required>
+                <hr>
+                <input type="url" name="website" placeholder="Website" required>
+                <hr>
                 <!-- <label for="about">About your Start-up</label>
                 <textarea id="about" name="about" placeholder="Tell us about your start-up" rows="4" cols="50"></textarea> -->
 
                 <label for="upload">Upload Your story</label>
                 <input type="file" name="upload" placeholder="Story">
 
+                <hr>
                 <label for="upload_pic">Passport Size Photo</label>
                 <input type="file" name="upload_pic" placeholder="photo">
             </div>
+            <hr>
 
             <div class="checkbox">
                 <input type="checkbox" name="checkbox"><span>I agree to the <a href="#">Privacy Policy</a></span>
             </div>
+            <hr>
             <button type="submit">Submit</button>
         </form>
     </div>
