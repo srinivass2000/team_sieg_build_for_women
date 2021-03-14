@@ -12,7 +12,7 @@ joblib==1.0.1
 MarkupSafe==1.1.1
 mkl-fft==1.0.0.17
 mkl-random==1.0.1
-mkl-service==2.3.0
+mkl-service==none
 mysqlclient==1.4.6
 numpy==1.19.2
 PyYAML==5.3
